@@ -1,0 +1,137 @@
+:root {
+    --primary-brand: #4d5ae5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --background: #ffffff;
+    --body-text: #434455;
+    --mode-background: #f4f4fd;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--body-text);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/* Header */
+.logo-header,
+.logo-footer {
+    color: var(--primary-brand);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-header>.logo-part {
+    color: var(--dark);
+}
+
+.link-nav {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contact {
+    color: var(--body-text);
+}
+
+.link-nav:hover,
+.link-nav:focus,
+.contact:hover,
+.contact:focus {
+    color: var(--pressed-state);
+}
+
+/* Main  */
+.hero-image {
+    background-color: var(--dark);
+}
+
+.title-main {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--background);
+    text-align: center;
+}
+
+.button {
+    background-color: var(--primary-brand);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--background);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--pressed-state);
+}
+
+.features-title,
+.name,
+.portfolio-project {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.title-section {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--dark);
+}
+
+.team {
+    background-color: var(--mode-background);
+}
+
+.team-member {
+    background-color: var(--background);
+}
+
+/* Footer  */
+.footer {
+    background-color: var(--dark);
+}
+
+.logo-footer {
+    color: var(--primary-brand);
+}
+
+.logo-part-footer {
+    color: var(--background);
+}
+
+.footer-text {
+    color: var(--background);
+}
