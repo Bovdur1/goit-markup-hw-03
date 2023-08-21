@@ -106,11 +106,17 @@ img {
     gap: 40px;
 }
 
-.navigation-item,
+.link-nav,
+.contact {
+    display: inline-block;
+    padding: 24px 0;
+}
+
+/* .navigation-item,
 .contact-item {
     padding-top: 24px;
     padding-bottom: 24px;
-}
+} */
 
 .contacts {
     display: flex;
@@ -127,9 +133,6 @@ img {
 
 .hero-image-section {
     background-color: var(--dark);
-}
-
-.hero-image {
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -150,6 +153,7 @@ img {
 .button {
     display: block;
     padding: 16px 32px;
+    min-width: 169px;
     margin-left: auto;
     margin-right: auto;
     border: none;
